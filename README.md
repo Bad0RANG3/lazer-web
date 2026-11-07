@@ -1,4 +1,4 @@
-﻿# Lazer / Nextgen — Official Website
+# Lazer / Nextgen — Official Website
 
 Static official site for Lazer, built with Vite and deployed on Vercel. No framework runtime dependency.
 
@@ -35,6 +35,10 @@ Use the language menu in the header. The selection is saved in `localStorage`, r
 
 All translations live in `assets/js/i18n.js`. Chinese source strings stay in `index.html`, and the runtime layer swaps them using the dictionaries in that file.
 
+## Plugin market
+
+`/plugin` is the plugin marketplace page. Lazer clients read `/plugin/plugins.json` as the market manifest; the same manifest powers the page's search, type filters, and plugin cards. Listings are PR-based — open-source plugins must include a public repository link, while closed-source plugins must submit a PR for every release. See [`plugin/README.md`](plugin/README.md) for the listing rules and field reference.
+
 ## Vercel deployment
 
 `package.json` pins Vite as a dev dependency, and `vercel.json` sets the build command to `npm run build` with `dist` as the output directory. This fixes `sh: vite: command not found` during `vercel build`: the previous setup had a Vite build command but no local Vite binary to run it.
@@ -63,14 +67,24 @@ The artwork lives in the `<aside class="hero-art hero-art-cd" data-slot="hero-ar
 
 ```text
 index.html
+plugin.html
+vite.config.js
 package.json
 vercel.json
+plugin/
+  README.md
+public/
+  plugin/
+    plugins.json
 assets/
   css/site.css
+  css/plugin.css
   fonts/MiSans-{Regular,Semibold,Bold}.woff2
   images/favicon.png
   images/mark-ivory.png
   js/i18n.js
+  js/plugin.js
+  js/plugin-i18n.js
 ```
 
 No raster CD artwork is shipped. All external links point to the public Lazer repository, releases, issues, license, and the community QQ group.

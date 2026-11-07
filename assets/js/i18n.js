@@ -35,6 +35,8 @@ const TRANSLATIONS = {
     '界面': '介面',
     '规格': '規格',
     '获取': '取得',
+    '插件': '外掛',
+    '插件市场': '外掛市集',
     '把每一首歌，': '把每一首歌，',
     '放回盒子里。': '放回盒子裡。',
     'Lazer 是一台用 Flutter 手写的网易云音乐客户端。 真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。': 'Lazer 是一台用 Flutter 手寫的網易雲音樂用戶端。真實曲庫、逐字歌詞、評論與播放，從服務本身直達喇叭。',
@@ -123,9 +125,7 @@ const TRANSLATIONS = {
     '反馈一个问题': '回報一個問題',
     '听歌': '聽歌',
     '文档 ↗': '文件 ↗',
-    'QQ 群 ↗': 'QQ 群 ↗',
-    '非官方客户端': '非官方用戶端',
-    '与网易云音乐无隶属关系': '與網易雲音樂無隸屬關係'
+    'QQ 群 ↗': 'QQ 群 ↗'
   },
   ja: {
     '跳到正文': '本文へスキップ',
@@ -134,6 +134,8 @@ const TRANSLATIONS = {
     '界面': '画面',
     '规格': '仕様',
     '获取': '入手',
+    '插件': 'プラグイン',
+    '插件市场': 'プラグインマーケット',
     '把每一首歌，': 'すべての歌を、',
     '放回盒子里。': 'ケースの中へ。',
     'Lazer 是一台用 Flutter 手写的网易云音乐客户端。 真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。': 'Lazer は Flutter で手書きされた NetEase Cloud Music クライアント。リアルなカタログ、一文字ずつの歌詞、コメント、再生まで、サービスからスピーカーへ直接届きます。',
@@ -222,9 +224,7 @@ const TRANSLATIONS = {
     '反馈一个问题': '問題を報告',
     '听歌': '聴く',
     '文档 ↗': 'ドキュメント ↗',
-    'QQ 群 ↗': 'QQ グループ ↗',
-    '非官方客户端': '非公式クライアント',
-    '与网易云音乐无隶属关系': 'NetEase Cloud Music とは提携していません'
+    'QQ 群 ↗': 'QQ グループ ↗'
   },
   en: {
     '跳到正文': 'Skip to content',
@@ -233,6 +233,8 @@ const TRANSLATIONS = {
     '界面': 'Interface',
     '规格': 'Specs',
     '获取': 'Get',
+    '插件': 'Plugins',
+    '插件市场': 'Plugin Market',
     '把每一首歌，': 'Put every song,',
     '放回盒子里。': 'back in its case.',
     'Lazer 是一台用 Flutter 手写的网易云音乐客户端。 真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。': 'Lazer is a NetEase Cloud Music client, handwritten in Flutter. A real catalogue, word-by-word lyrics, comments, and playback — straight from the service to your speakers.',
@@ -323,9 +325,7 @@ const TRANSLATIONS = {
     '反馈一个问题': 'Report an issue',
     '听歌': 'Listen',
     '文档 ↗': 'Docs ↗',
-    'QQ 群 ↗': 'QQ Group ↗',
-    '非官方客户端': 'Unofficial client',
-    '与网易云音乐无隶属关系': 'Not affiliated with NetEase Cloud Music'
+    'QQ 群 ↗': 'QQ Group ↗'
   }
 };
 
