@@ -1,42 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:45:00+08:00",
+  "updatedAt": "2026-11-07T13:30:00+08:00",
   "plugins": [
-    {
-      "id": "lazer.netease",
-      "name": {
-        "zh-CN": "网易云音乐",
-        "zh-Hant": "網易雲音樂",
-        "ja": "NetEase Cloud Music",
-        "en": "NetEase Cloud Music"
-      },
-      "summary": {
-        "zh-CN": "由 Lua Gateway 提供登录、搜索、歌单、歌词、榜单和音频播放。",
-        "zh-Hant": "由 Lua Gateway 提供登入、搜尋、歌單、歌詞、排行榜與音訊播放。",
-        "ja": "Lua Gateway によるログイン、検索、プレイリスト、歌詞、チャート、再生。",
-        "en": "Login, search, playlists, lyrics, charts and playback through a Lua Gateway."
-      },
-      "author": "Lazer",
-      "authorUrl": "",
-      "type": "open-source",
-      "version": "1.1.0",
-      "license": "AGPL-3.0-or-later",
-      "repo": "https://github.com/chuxuehaocai/Lazer",
-      "download": "./lazer.netease-1.1.0.zip",
-      "platforms": [
-        "windows",
-        "macos",
-        "linux",
-        "android",
-        "ios"
-      ],
-      "tags": [
-        "gateway",
-        "lua",
-        "lyrics"
-      ],
-      "minAppVersion": "2.0.0-beta.6",
-      "updatedAt": "2026-11-07"
-    }
+
   ]
 }
