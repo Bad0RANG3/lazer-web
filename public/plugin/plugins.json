@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:04:00+08:00",
+  "updatedAt": "2026-11-08T15:50:44+08:00",
   "plugins": [
     {
       "id": "lazer.netease",
@@ -18,9 +18,10 @@
       },
       "author": "Illusion",
       "type": "closed-source",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "Private",
-      "download": "https://lazer.naominet.dev/plugin/Illusion/lazer.netease/1.0.0/lazer.netease.zip",
+      "download": "https://lazer.naominet.dev/plugin/Illusion/lazer.netease/1.0.1/lazer.netease.zip",
+      "sha256": "65ed256a69e65f2de2cb1df34e41c111b1e6324659a2ea33964e8a44eb06163a",
       "platforms": ["windows", "macos", "linux", "android", "ios"],
       "tags": ["gateway", "netease", "lua"],
       "minAppVersion": "2.0.0",
