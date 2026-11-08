@@ -11,19 +11,19 @@ const LANGUAGE_LABELS = {
 const META = {
   'zh-CN': {
     title: 'Lazer — 把每一首歌，放回盒子里',
-    description: 'Lazer 是一台用 Flutter 手写的网易云音乐客户端。真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。'
+    description: 'Lazer 是一台用 Flutter 手写的多平台音乐客户端，通过 Lua 插件接入不同音乐平台。真实曲库、逐字歌词、评论与播放，共用一套核心。'
   },
   'zh-Hant': {
     title: 'Lazer — 把每一首歌，放回盒子裡',
-    description: 'Lazer 是一台用 Flutter 手寫的網易雲音樂用戶端。真實曲庫、逐字歌詞、評論與播放，從服務本身直達喇叭。'
+    description: 'Lazer 是一台用 Flutter 手寫的多平台音樂用戶端，透過 Lua 外掛接入不同音樂平台。真實曲庫、逐字歌詞、評論與播放，共用一套核心。'
   },
   ja: {
     title: 'Lazer — すべての歌を、ケースの中へ。',
-    description: 'Lazer は Flutter で手書きされた NetEase Cloud Music クライアント。リアルなカタログ、一文字ずつの歌詞、コメント、再生まで、サービスからスピーカーへ直接届きます。'
+    description: 'Lazer は Flutter で手書きされたマルチプラットフォーム音楽クライアント。Lua プラグインでさまざまな音楽サービスに接続します。リアルなカタログ、一文字ずつの歌詞、コメント、再生をひとつのコアで。'
   },
   en: {
     title: 'Lazer — Put every song back in its case.',
-    description: 'Lazer is a NetEase Cloud Music client, handwritten in Flutter. A real catalogue, word-by-word lyrics, comments, and playback — straight from the service to your speakers.'
+    description: 'Lazer is a multi-platform music client, handwritten in Flutter. Lua plugins connect it to different music services, with a real catalogue, word-by-word lyrics, comments, and playback sharing one core.'
   }
 };
 
@@ -125,6 +125,20 @@ const TRANSLATIONS = {
     '反馈一个问题': '回報一個問題',
     '听歌': '聽歌',
     '文档 ↗': '文件 ↗',
+    'Lazer 是一台用 Flutter 手写的音乐客户端。通过 Lua 插件接入不同平台， 真实曲库、逐字歌词、评论与播放，共用一套核心。': 'Lazer 是一台用 Flutter 手寫的音樂用戶端。透過 Lua 外掛接入不同平台，真實曲庫、逐字歌詞、評論與播放，共用一套核心。',
+    '一台播放器。': '一台播放器。',
+    '平台，': '平台，',
+    '交给插件。': '交給外掛。',
+    'Lazer 已经从一个单平台客户端，长成通过 Lua 插件接入多个平台的播放器。 平台能力交给插件，播放、歌词、界面与状态共用同一套核心。': 'Lazer 已經從一個單平台用戶端，長成透過 Lua 外掛接入多個平台的播放器。平台能力交給外掛，播放、歌詞、介面與狀態共用同一套核心。',
+    '任意音乐平台': '任意音樂平台',
+    'Lua 平台插件': 'Lua 平台外掛',
+    '可扩展平台': '可擴展平台',
+    '核心': '核心',
+    '插件运行时': '外掛執行時',
+    '平台支持': '平台支援',
+    '一套播放器，一套共享状态': '一套播放器，一套共享狀態',
+    '平台适配由插件提供': '平台適配由外掛提供',
+    '随插件扩展，无需重编译': '隨外掛擴展，無需重新編譯',
     'QQ 群 ↗': 'QQ 群 ↗'
   },
   ja: {
@@ -224,6 +238,20 @@ const TRANSLATIONS = {
     '反馈一个问题': '問題を報告',
     '听歌': '聴く',
     '文档 ↗': 'ドキュメント ↗',
+    'Lazer 是一台用 Flutter 手写的音乐客户端。通过 Lua 插件接入不同平台， 真实曲库、逐字歌词、评论与播放，共用一套核心。': 'Lazer は Flutter で手書きされた音楽クライアント。Lua プラグインでさまざまなプラットフォームに接続し、リアルなカタログ、一文字ずつの歌詞、コメント、再生をひとつのコアで提供します。',
+    '一台播放器。': '一台のプレーヤー。',
+    '平台，': 'プラットフォームは、',
+    '交给插件。': 'プラグインへ。',
+    'Lazer 已经从一个单平台客户端，长成通过 Lua 插件接入多个平台的播放器。 平台能力交给插件，播放、歌词、界面与状态共用同一套核心。': 'Lazer は単一プラットフォームのクライアントから、Lua プラグインで複数のプラットフォームに接続するプレーヤーへと成長しました。プラットフォーム機能はプラグインに任せ、再生、歌詞、画面、状態はひとつのコアを共有します。',
+    '任意音乐平台': '任意の音楽プラットフォーム',
+    'Lua 平台插件': 'Lua プラットフォームプラグイン',
+    '可扩展平台': '拡張可能なプラットフォーム',
+    '核心': 'コア',
+    '插件运行时': 'プラグインランタイム',
+    '平台支持': 'プラットフォーム対応',
+    '一套播放器，一套共享状态': 'ひとつのプレーヤー、ひとつの共有状態',
+    '平台适配由插件提供': 'プラットフォーム適配はプラグインが提供',
+    '随插件扩展，无需重编译': 'プラグインで拡張、再ビルド不要',
     'QQ 群 ↗': 'QQ グループ ↗'
   },
   en: {
@@ -325,6 +353,20 @@ const TRANSLATIONS = {
     '反馈一个问题': 'Report an issue',
     '听歌': 'Listen',
     '文档 ↗': 'Docs ↗',
+    'Lazer 是一台用 Flutter 手写的音乐客户端。通过 Lua 插件接入不同平台， 真实曲库、逐字歌词、评论与播放，共用一套核心。': 'Lazer is a music client, handwritten in Flutter. Lua plugins connect it to different platforms, with a real catalogue, word-by-word lyrics, comments, and playback sharing one core.',
+    '一台播放器。': 'One player.',
+    '平台，': 'Platforms,\u00A0',
+    '交给插件。': 'handed to plugins.',
+    'Lazer 已经从一个单平台客户端，长成通过 Lua 插件接入多个平台的播放器。 平台能力交给插件，播放、歌词、界面与状态共用同一套核心。': 'Lazer has grown from a single-platform client into a player that connects to multiple platforms through Lua plugins. Platform capabilities live in plugins; playback, lyrics, interface, and state share one core.',
+    '任意音乐平台': 'Any music platform',
+    'Lua 平台插件': 'Lua platform plugin',
+    '可扩展平台': 'Extensible platforms',
+    '核心': 'Core',
+    '插件运行时': 'Plugin runtime',
+    '平台支持': 'Platform support',
+    '一套播放器，一套共享状态': 'One player, one shared state',
+    '平台适配由插件提供': 'Platform adapters provided by plugins',
+    '随插件扩展，无需重编译': 'Extend with plugins, no rebuild required',
     'QQ 群 ↗': 'QQ Group ↗'
   }
 };

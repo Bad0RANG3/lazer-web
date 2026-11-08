@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Lazer 是一台用 Flutter 手写的网易云音乐客户端。真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。">
+  <meta name="description" content="Lazer 是一台用 Flutter 手写的多平台音乐客户端，通过 Lua 插件接入不同音乐平台。真实曲库、逐字歌词、评论与播放，共用一套核心。">
   <meta name="theme-color" content="#090909">
   <meta name="color-scheme" content="dark">
   <meta property="og:title" content="Lazer — 把每一首歌，放回盒子里">
-  <meta property="og:description" content="Lazer 是一台用 Flutter 手写的网易云音乐客户端。真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。">
+  <meta property="og:description" content="Lazer 是一台用 Flutter 手写的多平台音乐客户端，通过 Lua 插件接入不同音乐平台。真实曲库、逐字歌词、评论与播放，共用一套核心。">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
   <title>Lazer — 把每一首歌，放回盒子里</title>
@@ -63,7 +63,7 @@
           <p class="eyebrow">
             <span class="eyebrow-code">LZR / 001</span>
             <span class="eyebrow-rule"></span>
-            <span>NETEASE CLOUD MUSIC CLIENT</span>
+            <span>LUA PLUGIN MULTI-PLATFORM CLIENT</span>
           </p>
 
           <h1 id="hero-title">把每一首歌，<br><span>放回盒子里。</span></h1>
@@ -76,8 +76,8 @@
           </div>
 
           <p class="hero-lede">
-            Lazer 是一台用 Flutter 手写的网易云音乐客户端。
-            真实曲库、逐字歌词、评论与播放，从服务本身直达扬声器。
+            Lazer 是一台用 Flutter 手写的音乐客户端。通过 Lua 插件接入不同平台，
+            真实曲库、逐字歌词、评论与播放，共用一套核心。
           </p>
 
           <div class="hero-actions">
@@ -102,7 +102,7 @@
           <div class="hero-meta">
             <span>05 PLATFORMS</span>
             <span>04 LANGUAGES</span>
-            <span>00 GATEWAYS</span>
+            <span>LUA PLUGINS</span>
           </div>
         </div>
 
@@ -208,26 +208,26 @@
 
         <div class="statement-grid">
           <div class="statement-main">
-            <h2 id="statement-title">没有第三方网关。<br><span>只有一条直接的<br class="mobile-break">信号链。</span></h2>
+            <h2 id="statement-title">一台播放器。<br><span>平台，<br class="mobile-break">交给插件。</span></h2>
             <p>
-              WEAPI / EAPI 就住在客户端里。搜索、歌单、歌手、专辑、评论与歌词，
-              都从服务本身取回；再交给原生音频引擎，按下播放键，声音就已经在路上。
+              Lazer 已经从一个单平台客户端，长成通过 Lua 插件接入多个平台的播放器。
+              平台能力交给插件，播放、歌词、界面与状态共用同一套核心。
             </p>
           </div>
 
           <div class="signal-panel">
             <div class="signal-head">
-              <span>DIRECT SIGNAL PATH</span>
+              <span>PLUGIN SIGNAL PATH</span>
               <span>FIG. A</span>
             </div>
             <ol class="signal-list">
               <li>
                 <span class="signal-index">01</span>
-                <div><b>SOURCE</b><em>网易云音乐服务</em></div>
+                <div><b>SOURCE</b><em>任意音乐平台</em></div>
               </li>
               <li>
                 <span class="signal-index">02</span>
-                <div><b>PROTOCOL</b><em>WEAPI / EAPI 原生实现</em></div>
+                <div><b>PLUGIN</b><em>Lua 平台插件</em></div>
               </li>
               <li>
                 <span class="signal-index">03</span>
@@ -239,17 +239,17 @@
               </li>
             </ol>
             <div class="signal-zero">
-              <strong>0</strong>
-              <span>第三方网关<br>Third-party gateways</span>
+              <strong>∞</strong>
+              <span>可扩展平台<br>Plugin platforms</span>
             </div>
           </div>
         </div>
 
         <dl class="stat-row">
-          <div><dt>平台</dt><dd><strong>05</strong><span>Windows / macOS / Linux / Android / iOS</span></dd></div>
+          <div><dt>核心</dt><dd><strong>01</strong><span>一套播放器，一套共享状态</span></dd></div>
+          <div><dt>插件运行时</dt><dd><strong>LUA</strong><span>平台适配由插件提供</span></dd></div>
+          <div><dt>平台支持</dt><dd><strong>∞</strong><span>随插件扩展，无需重编译</span></dd></div>
           <div><dt>界面语言</dt><dd><strong>04</strong><span>简体中文 / 繁體中文 / 日本語 / English</span></dd></div>
-          <div><dt>页面与状态</dt><dd><strong>01</strong><span>一套页面树，一套共享状态</span></dd></div>
-          <div><dt>播放链路</dt><dd><strong>00</strong><span>第三方网关中转</span></dd></div>
         </dl>
       </div>
     </section>
@@ -274,7 +274,7 @@
             <span class="track-no">A1</span>
             <h3>真实曲库</h3>
             <p>搜索、推荐歌单、私人雷达与每日推荐。账号、收藏与播放列表，都落在真实服务上。</p>
-            <span class="track-tag">WEAPI</span>
+            <span class="track-tag">PLUGIN</span>
           </article>
           <article class="track">
             <span class="track-no">A2</span>
@@ -412,7 +412,7 @@
         <div class="signal-line">
           <span>SOURCE</span>
           <i></i>
-          <span>WEAPI / EAPI</span>
+          <span>LUA PLUGIN</span>
           <i></i>
           <span class="signal-line-hot">LAZER</span>
           <i></i>
