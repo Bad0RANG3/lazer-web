@@ -466,6 +466,40 @@ img {
   color: var(--paper-high);
 }
 
+.button-outline {
+  border-color: var(--ink-line-strong);
+  background: transparent;
+  color: var(--ivory);
+}
+
+.button-outline:hover {
+  border-color: var(--ivory);
+  background: rgba(240, 237, 229, 0.07);
+}
+
+.button-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-badge {
+  padding: 3px 6px;
+  border: 1px solid var(--ink-line-strong);
+  color: var(--ink-muted);
+  font-family: var(--mono);
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.button-outline:hover .button-badge {
+  border-color: rgba(240, 237, 229, 0.4);
+  color: var(--ivory-soft);
+}
+
 .button-arrow {
   font-family: var(--mono);
   font-size: 14px;
